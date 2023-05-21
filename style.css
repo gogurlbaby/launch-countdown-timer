@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 66vh;
+    min-height: 70vh;
   }
 
 .container h1 {
@@ -24,12 +24,12 @@ body {
     letter-spacing: 2px;
     text-transform: uppercase;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 /* Countdown */
 .countdown {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     text-align: center;
@@ -44,7 +44,7 @@ body {
     background-color: hsl(236, 21%, 26%);
     color: hsl(345, 95%, 68%);
     border-radius: 5px;
-    font-size: 46px;
+    font-size: 42px;
 }
 
 .countdown h3 {
@@ -96,6 +96,24 @@ ul {
 
 .social-icons ul li {
     margin: 0 20px;
+}
+
+@media (max-width: 400px) {
+    .container {
+        min-height: 85vh;
+    }
+
+    .stars, .pattern-hills {
+        width: 500px;
+    }
+
+    .pattern-hills {
+        bottom: -100px;
+    }
+
+    .social-icons {
+        bottom: -80px;
+    }
 }
 
 @media (min-width: 1440px) {
