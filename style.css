@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 65vh;
+    min-height: 70vh;
   }
 
 .container h1 {
@@ -55,17 +55,6 @@ body {
     letter-spacing: 2px;
 }
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; 
-    color: hsl(0, 0%, 100%);
-}
-    
-.attribution a { 
-    color: hsl(0, 0%, 100%);
-    text-decoration: none;
-}
-
 img {
     max-width: 100%;
 }
@@ -97,19 +86,23 @@ ul {
 
 .social-icons ul li {
     margin: 0 20px;
+    cursor: pointer;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(0, 0%, 100%);
+}
+    
+.attribution a { 
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
 }
 
 @media (max-width: 400px) {
-    .container {
-        min-height: 85vh;
-    }
-
-    .stars, .pattern-hills {
+    .stars, .pattern-hills{
         width: 500px;
-    }
-
-    .pattern-hills {
-        bottom: -100px;
     }
 
     .social-icons {
