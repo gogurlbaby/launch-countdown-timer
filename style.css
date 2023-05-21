@@ -104,10 +104,6 @@ ul {
     .stars, .pattern-hills{
         width: 500px;
     }
-
-    .social-icons {
-        bottom: -80px;
-    }
 }
 
 @media (min-width: 1440px) {
